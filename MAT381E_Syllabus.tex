@@ -1,0 +1,626 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  12pt,
+]{article}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+  \usepackage{amssymb}
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={MAT381E: Introduction to Data Science},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\linespread{1.05} \usepackage{xcolor}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{MAT381E: Introduction to Data Science}
+\author{}
+\date{\vspace{-2.5em}Fall 2021}
+
+\begin{document}
+\maketitle
+
+\hypertarget{instructor-information}{%
+\section{Instructor Information}\label{instructor-information}}
+
+\textbf{Instructor:} Gül İnan
+
+\textbf{E-mail:}
+\href{mailto:inan@itu.edu.tr}{\nolinkurl{inan@itu.edu.tr}}
+
+\textbf{Office:} Room 424 @ Department of Mathematics
+
+\textbf{Office hour:} Send me an e-mail for your queries or for
+scheduling an online appointment via Zoom.
+
+\hypertarget{seminar-series}{%
+\section{Seminar Series}\label{seminar-series}}
+
+Assist. Prof.~Dr.~Mert Moral, Sabancı University, May 3, 2021 at 14:30pm
+
+Dr.~Çağrı Özçağlar, LinkedIN, Silicon Valley, CA, May 24 2021, at
+17:40pm
+
+Prof.~Dr.~Emre Erdoğan, Bilgi University, May 31 2021, at 16:30pm
+
+\hypertarget{course-information}{%
+\section{Course Information}\label{course-information}}
+
+\textbf{Course Type:} Elective for undergraduate students.
+
+\textbf{Course Credits:} 3 local credits (6 ECTS credits).
+
+\textbf{Course Prerequisites:} MAT 116/E MIN DD.
+
+\textbf{Course Description:}
+
+Data science is an interdisciplinary and broad field using mathematics,
+statistics, and computer science methods and tools to extract
+information and insight from data in different forms. This course is an
+introductory level data science course on introducing different data
+types (structured and unstructured) from different fields arising mostly
+from digital technologies or available on the web, and then focusing on
+importing, cleaning, reshaping, exploring, and visualizing these data.
+
+\textbf{Computer skills:}
+
+We will be using R programming language with RStudio IDE for data
+related works. You will be using the version control system Git along
+with GitHub to submit homework assignments and team-based works. Lastly,
+prior knowledge of CSS, Html, JavaScript brings a big plus to produce
+fancy outputs for your works. But it is neither a must nor focus of this
+course.
+
+\textbf{Course website:} For each study, you will also receive an
+invitation soon to submit your study to the GitHub Classroom of the
+following organization:
+
+\url{https://github.com/MAT381E}.
+
+\textbf{Class Schedule:} Mondays between 14:30-17:30 p.m. (Local time in
+Istanbul).
+
+\textbf{Classroom:} Online via secured ITU Zoom platform.
+
+\textbf{Course Logistics:} Each week, before the class, a Zoom meeting
+invitation will be sent you via your ITU email to join the class on
+Mondays. Lectures will be automatically recorded and you will have a
+chance re-watch the videos after the class on
+\href{Ninova}{https://ninova.itu.edu.tr}. Lecture materials (notes,
+assignments, grades etc) will be uploaded on
+\href{Ninova}{https://ninova.itu.edu.tr}.
+
+\textbf{Course Objectives:} This course aims to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Provide basic knowledge required for using data science computational
+  tools such as a programming language and its packages associated with
+  data science, a dynamic report application, and version control
+  system.
+\item
+  Introduce different types of data from different disciplines arising
+  from digital technologies or available on the web.
+\item
+  To give an ability for accessing, cleaning, reshaping, exploring, and
+  visualizing diffrent types of data from different disciplines.
+\item
+  To give an ability for interpreting data arising from different
+  disciplines and making data-driven inferences.
+\end{enumerate}
+
+\textbf{Course Tentative Plan}: We will closely follow the weekly
+schedule given below. However, weekly class schedules are subject to
+change depending on the progress we make as a class.
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+\textbf{Week}\strut
+\end{minipage} &
+\begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+\textbf{Date}\strut
+\end{minipage} &
+\begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+\textbf{Topic}\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+1\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+01/03\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Introduction to data science and computational tools.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+2\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+08/03\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Tools for data importing, manipulating, and tidying.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+3\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+15/03\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Basic principles of data visualization.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+4\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+22/03\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Data visualization tools.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+5\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+29/03\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Handling with strings and dates in data. \textbf{(HW1 assigned, Project
+proposal submission)}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+6\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+05/04\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Scraping data from web.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+7\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+12/04\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Data extraction from social networking sites.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+8\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+19/04\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Basic principles of text mining.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+9\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+26/04\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Network analysis and visualization.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+10\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+03/05\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Basic principles of geographic information system. \textbf{(Seminar,
+Project interim report submission)}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+11\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+10/05\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Spring Break\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+12\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+17/05\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Visualization of spatial and urban data. \textbf{(HW2 assigned)}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+13\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+24/05\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Basic principles of interactive data visualization.
+\textbf{(Seminar)}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+14\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+31/05\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Interactive web-based data visualization tools.\textbf{(Seminar)}\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+15\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+07/06\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Relational databases.\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+16-17\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.17}}\raggedright
+14-27/06\strut
+\end{minipage} &
+\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.67}}\raggedright
+Final exam week. \textbf{(Final report submission, Project website on
+GitHub pages, Oral presentation)}\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+
+\textbf{Student Learning Outcomes:} A student who completed this course
+successfully is expected to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Know the recent technologies associated with data science,
+\item
+  Know basic programming skills with R Programming and get familiar with
+  its data science related packages,
+\item
+  Know how to access data from various sources,
+\item
+  Know how to clean, reshape, explore, and visualize the data for
+  reporting and further analysis.
+\item
+  Know how to make data-driven inferences,
+\item
+  Know how to perform reproducible research,
+\item
+  Know how to present findings both verbally and orally,
+\item
+  Know how to do collaborative work and effectively work in a team
+  environment, and
+\item
+  Know how to communicate with audience from different disciplines
+\end{enumerate}
+
+immediately following the course, and/or a few months after the course.
+
+\textbf{Textbook:} All lecture materials.
+
+\textbf{Recommended Bibliography:} Students are encouraged to consult
+the following sources on their own:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Wickham, H. and Grolemund, G. (2016). R for data science: import,
+  tidy, transform, visualize, and model data. O'Reilly Media,
+  Inc.~{[}Freely available through the book's website
+  \url{https://r4ds.had.co.nz/}{]}.
+\item
+  Bivand, R.S., Pebesma, E.J., Gomez-Rubio, V., and Pebesma, E. J.
+  (2013). Applied spatial data analysis with R. New York: Springer. 2nd
+  ed.~{[}Electronic resource at ITU Library Services{]}.
+\item
+  Carson, S. (2020). Interactive web-based data visualization with R,
+  plotly, and shiny. CRC Press. {[}Freely available through the book's
+  website \url{https://plotly-r.com/}{]}.
+\item
+  Douglas, A.L. (2015). A user's guide to network analysis in R. Cham:
+  Springer International Publishing. 1st ed.~{[}Electronic resource at
+  ITU Library Services{]}.
+\item
+  Silge, J., and Robinson, D. (2017). Text mining with R: A tidy
+  approach. O'Reilly Media, Inc.~{[}Freely available through the book's
+  website \url{https://www.tidytextmining.com/}{]}.
+\item
+  Wickham, H. (2016). ggplot2: Elegant graphics for data analysis.
+  Springer, 2nd ed.~{[}Electronic resource at ITU Library Services{]}.
+\end{enumerate}
+
+\textbf{Off-Campus Access to the ITU Library E-sources:}
+
+Access to library e-sources remotely is possible with a library account.
+Users without a library account should apply for the library
+registration at
+\href{Library register}{https://kutuphane.itu.edu.tr/en/register}. After
+setting the web configurations given at
+\href{Proxy}{https://kutuphane.itu.edu.tr/en/services \linebreak /web-browser-proxy-settings}
+only once on your computer, you will able to have an access to ITU
+Library e-sources.
+
+\textbf{Course Workload:} 2 homework assignments, a team-based project
+(see the details below), and seminars given by guest lecturers.
+
+\textbf{Selected Important Dates:} For the official ITU Spring 2021
+academic calendar, please visit:
+
+\url{https://www.sis.itu.edu.tr/TR/ogrenci/akademik-takvim/akademik-takvim.php}.
+
+Here are some selected important dates in Spring 2021 semester:
+
+March 1, 2021: First day of classes.
+
+March 1-5, 2021: Add-drop week.
+
+April 23, 2021: National Sovereignty and Children's Day (Friday, No
+classes).
+
+May 1, 2021: Labor and Solidarity Day (Saturday, No classes).
+
+May 10-15, 2021: ITU Spring Break and Ramadan Feast Holiday
+(\textbf{Monday-Sunday} No classes).
+
+May 19, 2021: Commemoration of Atatürk, Youth and Sports Day (Wednesday,
+No classes).
+
+June 11, 2021: Last day of classes.
+
+June 14- 27, 2021: Final exam week.
+
+I also honor other national and religous holidays. Students, who needs
+flexibility on individual-based studies overlapping with these special
+days, can inform me.
+
+\hypertarget{course-policies}{%
+\section{Course Policies}\label{course-policies}}
+
+Please read the information below as a reference for how this class will
+be conducted.
+
+\textbf{Grading Policy:}
+
+\begin{itemize}
+\item
+  Assessment Method \quad      \quad \quad                Total
+  Contribution to Final Grade:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    2 homework assignments each 10\% \quad \quad \quad            20\%,
+
+    \begin{itemize}
+    \item
+      Homework assignments will be motivated by data sets/examples of
+      Tidy Tuesday available at:
+
+      \url{https://github.com/rfordatascience/tidytuesday}.
+    \item
+      You can also share your assignments on Twitter with tags
+      \#TidyTuesday, \#rstats, and \#mat381e.
+    \end{itemize}
+  \item
+    1 team-based project
+    \quad \quad \quad                           80\%.
+  \item
+    Detailed break-down of the team-based project:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Project proposal 5\%,
+    \item
+      Project interim written-report 10\%,
+    \item
+      Project final written-report 30\%,
+    \item
+      Project website on GitHub pages 5\%,
+    \item
+      Project oral presentation 25\%,
+    \item
+      Peer evaluation 5\%,
+    \item
+      Statement of personal contribution.
+    \end{itemize}
+  \end{itemize}
+\item
+  Homework assignments are individual-based studies, whereas team-based
+  project is the product of team.
+\item
+  All members of a team will get the same point on \textbf{the project
+  proposal, interim report, final report, report posted on GitHub pages,
+  and oral presentation}. However, I reserve the right to assign
+  different grades to each team member based on peer evaluations (see
+  below).
+\item
+  You can also share your project website link on GitHub pages on
+  Twitter with tags \#data4good, \#rstats, and \#mat381e.
+\item
+  Each team member should contribute to oral presentation where the
+  allocated time is evenly distributed among the team members. If any
+  member of the team fails to do oral presentation, that individual will
+  receive ``0'' for oral presentation grade.
+\item
+  The peer evaluation point of a student will be the average of the
+  points which his/her team members will assign to him/her.
+\item
+  If any member for a specific team fails to submit the peer evaluation
+  form, all members of that team will receive ``0'' for peer evaluation
+  grade.
+\item
+  Peer evaluation and statement of personal contribution forms will be
+  available on Ninova.
+\item
+  \textbf{For detailed information on project design guideline, please
+  see the relevant document on Ninova.}
+\item
+  \textbf{Every study mentioned above should be submitted by each
+  student via Ninova and GitHub Classroom of MAT381E organization.}
+\item
+  Exact submission dates for each study above will be announced at well
+  in advance.
+\end{itemize}
+
+\textbf{Late Submission Policy:} Students are expected to do homework
+assignments by themselves. Neither homework assignments nor team-based
+works will be accepted after deadline. There are \textbf{NO} make-ups
+for missed homework and team-based works. The students who have Covid-19
+medical report during the submission periods can ask for extension only.
+
+\textbf{Final Exam Attendance Policy:} Not applicable this semester.
+
+\textbf{Make-Up Exam Policy:} Not applicable this semester.
+
+\textbf{Class Attendance Policy:}
+
+The students are encouraged to attend classes, whereas the attendance is
+not mandatory in Spring 2021 semester due to Covid-19 pandemic. For that
+reason, the student is deemed responsible to manage his/her absences.
+
+\textbf{Participation Policy:}
+
+The students are expected to ask and answer questions, participate in
+in-class activities, and show their interest and engagement in the
+class. Asking questions in seminars is encouraged.
+
+\textbf{E-mail Policy:}
+
+Please:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Use a proper descriptive subject line (which may consist of the course
+  number MAT381E followed by a short phrase summarizing the subject of
+  your e-mail).
+\item
+  Start off your e-mail with a proper greeting, introduce yourself (give
+  your name), then state your problem as short as possible.
+\item
+  Finally, use a proper closing and then finish your e-mail with your
+  first name and so on.
+\end{enumerate}
+
+Feel free to send me e-mails. But be sure you that give me enough time
+to get back to you. In the past, I have had pretty much tolerance for
+e-mail messages sent after business hours and at weekends. But, now, due
+to pandemic, I should say that I may not appreciate these e-mails
+anymore. Lastly, e-mails asking for grade grubbing at the end of the
+semester are not welcomed.
+
+\textbf{Equity, Diversity, and Inclusion:}
+
+In this class, I am committed to cultural and individual differences and
+diversity as including, but not limited to, age, disability, ethnicity,
+gender, gender identity, language, national origin, race, religion,
+culture, and socioeconomic status and I acknowledge the value of
+differences.
+
+\textbf{Academic Honesty Policy:}
+
+At every stage of the academic life, every ITU student is responsible
+for obeying the academic honesty policy of ITU stated below:
+
+\url{https://odek.itu.edu.tr/en/code-of-honor/ethics-in-university-life}.
+
+\textbf{Student with Special Needs:}
+
+If you are a student with special needs, let me know that how we can
+adjust the course environment and materials in accordance with your
+needs. Furthermore, you are also invited to contact the office of
+students with special needs at:
+
+\url{http://engelsiz.itu.edu.tr/}.
+
+\textbf{ITU Distance Education Policy:}
+
+Sharing the lecture recordings or its piece with third parties is
+\underline{strictly} forbidden. Furthermore, the recordings are subject
+to investigation by the authorities as needed. For that reason, be sure
+that you behave (\underline{both orally and verbally}) responsibly in
+this virtual class. Please visit:
+
+\url{https://online.itu.edu.tr/},
+
+for more information on distance education regulations at ITU.
+
+\end{document}
