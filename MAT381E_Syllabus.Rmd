@@ -3,14 +3,14 @@ title: 'MAT381E: Introduction to Data Science'
 fontsize: 12pt
 date: "Fall 2021"
 output:
-  html_document:
-    df_print: paged
-    fontfamily: mathpazo
-  word_document: default
   pdf_document:
     fig_caption: yes
     keep_tex: yes
     latex_engine: pdflatex
+  word_document: default
+  html_document:
+    df_print: paged
+    fontfamily: mathpazo
 header-includes: \linespread{1.05}
                  \usepackage{xcolor} #enable to use xcolor package to color the text
 geometry: margin=1in
@@ -41,7 +41,6 @@ an online appointment via Zoom.
 Data science is an interdisciplinary and broad field using mathematics, statistics, and computer science methods and tools to extract information and insight from data in different forms. This course is an introductory level data science course on introducing different data types (structured and unstructured) from different fields arising mostly from digital technologies or available on the web, and then focusing on importing, cleaning, reshaping, exploring, and visualizing these data.
 
 
-
 **Computer skills:**
 
 We will be using `R` programming language with `RStudio IDE` for data related works.
@@ -50,7 +49,7 @@ team-based works. Lastly, prior knowledge of `HTML`, `CSS`, and `JavaScript` bri
 
 **Course website:** For each study, you will also receive an invitation soon to submit your study to the GitHub Classroom of the following organization:
 
-https://github.com/MAT381E.
+https://github.com/MAT381E-Fall21.
 
 **Class Schedule:** Mondays between 14:30-17:30 p.m. (Local time in Istanbul).
 
@@ -70,7 +69,7 @@ However, weekly class schedules are subject to change depending on the progress 
 
 | **Week** | **Date**   | **Topic**  | 
 | :---:| :---: | :-----------| 
-| 1 | 04/10 | Introduction to data science and computational tools.|
+| 1 | 04/10 | Introduction to data science and computational tools.| **(Project proposal assigned)**|
 | 2 | 11/10 | Tools for data importing, manipulating, and tidying.|
 | 3 | 18/10 | Basic principles of data visualization.|
 | 4 | 25/10 | Data visualization tools.|
@@ -164,7 +163,7 @@ Please read the information below as a reference for how this class will be cond
     - Project interim written-report                      10%,
     - Project final written-report                        30%,
     - Project website on GitHub pages                      5%,
-    - Project oral presentation                           25%,
+    - Project oral presentation                            25%,
     - Peer evaluation                                      5%,
     - Statement of personal contribution.
 
@@ -183,27 +182,28 @@ the team fails to do oral presentation, that individual will receive “0” for
 
 - **For detailed information on project design guideline, please see the relevant document on Ninova.** 
 
-- **Every study mentioned above should be submitted by each student via Ninova and GitHub Classroom of MAT381E organization.**
+- **Every study mentioned above should be submitted by each student via Ninova and GitHub Classroom of MAT381E-Fall21 organization.**
 
 - Exact submission dates for each study above will be announced at well in advance.
 
 **Late Submission Policy:** Students are expected to do homework assignments by themselves. Neither homework assignments nor team-based works will be accepted after deadline. There are **NO** make-ups for missed homework and team-based works. The students who have Covid-19 medical report during the submission periods can ask for extension only.
 
-**Final Exam Attendance Policy:** Not applicable this semester.
+**Final Exam Attendance Policy:** At least 30 points from in-semester studies.
 
 **Make-Up Exam Policy:** Not applicable this semester.
 
 **Class Attendance Policy:** 
 
-The students are encouraged to attend classes, 
-whereas the attendance is not mandatory in Fall 2021 semester due to Covid-19 pandemic. 
-For that reason, the student is deemed responsible to manage his/her absences.
+The students must attend at least 70% of classes and
+is deemed responsible to manage his/her absences.
 
 **Participation Policy:** 
 
 The students are expected to ask and answer
 questions, participate in in-class activities, and
 show their interest and engagement in the class. 
+
+
 **E-mail Policy:**
 
 Please:
