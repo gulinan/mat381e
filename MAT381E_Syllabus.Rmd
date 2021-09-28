@@ -3,14 +3,14 @@ title: 'MAT381E: Introduction to Data Science'
 fontsize: 12pt
 date: "Fall 2021"
 output:
-  html_document:
-    df_print: paged
-    fontfamily: mathpazo
-  word_document: default
   pdf_document:
     fig_caption: yes
     keep_tex: yes
     latex_engine: pdflatex
+  word_document: default
+  html_document:
+    df_print: paged
+    fontfamily: mathpazo
 header-includes: \linespread{1.05}
                  \usepackage{xcolor} #enable to use xcolor package to color the text
 geometry: margin=1in
@@ -193,7 +193,7 @@ the team fails to do oral presentation, that individual will receive “0” for
 **Class Attendance Policy:** 
 
 The students must attend at least 70% of classes and
-is deemed responsible to manage his/her absences.
+are deemed responsible to manage his/her absences.
 
 **Participation Policy:** 
 
