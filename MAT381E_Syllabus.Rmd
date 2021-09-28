@@ -167,6 +167,8 @@ Please read the information below as a reference for how this class will be cond
     - Peer evaluation                                      5%,
     - Statement of personal contribution.
 
+- Exact submission dates for each study above will be announced at well in advance.
+
 - Homework assignments are individual-based studies, whereas team-based project is the product of team. 
 
 - All members of a team will get the same point on **the project proposal, interim report, final report, report posted on GitHub pages, and oral presentation**. However, I reserve the right to assign different grades to each team member based on peer evaluations (see below).
@@ -178,13 +180,9 @@ the team fails to do oral presentation, that individual will receive “0” for
 
 - If any member for a specific team fails to submit the peer evaluation form, all members of that team will receive “0” for peer evaluation grade.
 
-- Peer evaluation and statement of personal contribution forms will be available on Ninova.
+- **For detailed information on project design guideline and related documents, please see the relevant document on Ninova.** 
 
-- **For detailed information on project design guideline, please see the relevant document on Ninova.** 
-
-- **Every study mentioned above should be submitted by each student via Ninova and GitHub Classroom of MAT381E-Fall21 organization.**
-
-- Exact submission dates for each study above will be announced at well in advance.
+- **Every study mentioned above should be submitted by each student via GitHub Classroom of MAT381E-Fall21 organization.**
 
 **Late Submission Policy:** Students are expected to do homework assignments by themselves. Neither homework assignments nor team-based works will be accepted after deadline. There are **NO** make-ups for missed homework and team-based works. The students who have Covid-19 medical report during the submission periods can ask for extension only.
 
