@@ -164,7 +164,7 @@ Please read the information below as a reference for how this class will be cond
     - Project interim written-report                       20%,
     - Project final written-report                         20%,
     - Project website on GitHub pages                      5%,
-    - Project oral presentation                            20%,
+    - Project final oral presentation                      20%,
     - Peer evaluation                                      5%,
     - Statement of personal contribution.
 
