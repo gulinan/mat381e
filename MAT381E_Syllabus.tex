@@ -5,14 +5,17 @@
 \documentclass[
   12pt,
 ]{article}
+\title{MAT381E: Introduction to Data Science}
+\author{}
+\date{\vspace{-2.5em}Fall 2021}
+
+\usepackage{amsmath,amssymb}
 \usepackage{lmodern}
-\usepackage{amsmath}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+\usepackage{iftex}
+\ifPDFTeX
   \usepackage[T1]{fontenc}
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provide euro and other symbols
-  \usepackage{amssymb}
 \else % if luatex or xetex
   \usepackage{unicode-math}
   \defaultfontfeatures{Scale=MatchLowercase}
@@ -43,7 +46,7 @@
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
 \usepackage[margin=1in]{geometry}
-\usepackage{longtable,booktabs}
+\usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -71,16 +74,14 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 \linespread{1.05} \usepackage{xcolor}
-\ifluatex
+\ifLuaTeX
   \usepackage{selnolig}  % disable illegal ligatures
 \fi
 
-\title{MAT381E: Introduction to Data Science}
-\author{}
-\date{\vspace{-2.5em}Fall 2021}
-
 \begin{document}
 \maketitle
+
+\includegraphics{developer.png}
 
 \hypertarget{instructor-information}{%
 \subsection{Instructor Information}\label{instructor-information}}
@@ -167,166 +168,40 @@ grades etc) will be uploaded on \url{https://ninova.itu.edu.tr}.
 schedule given below. However, weekly class schedules are subject to
 change depending on the progress we make as a class.
 
-\begin{longtable}[]{@{}ccl@{}}
+\begin{longtable}[]{@{}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.23}}
+  >{\centering\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.23}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.55}}@{}}
 \toprule
-\begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-\textbf{Week}\strut
-\end{minipage} &
-\begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-\textbf{Date}\strut
-\end{minipage} &
-\begin{minipage}[b]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-\textbf{Topic}\strut
-\end{minipage}\tabularnewline
+\begin{minipage}[b]{\linewidth}\centering
+\textbf{Week}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+\textbf{Date}
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\textbf{Topic}
+\end{minipage} \\
 \midrule
 \endhead
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-1\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-04/10\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Introduction to data science and computational tools.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-2\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-11/10\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Tools for data importing, manipulating, and tidying.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-3\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-18/10\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Basic principles of data visualization.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-4\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-25/10\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Data visualization tools.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-5\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-01/11\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Handling with strings and dates in data. \textbf{(HW1 assigned, Project
-proposal submission)}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-6\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-08/11\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Scraping data from web.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-7\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-15/11\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Data extraction from social networking sites.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-8\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-22/11\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-ITU Fall Break.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-9\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-29/11\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Basic principles of text mining. \textbf{(Project interim report
-submission)}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-10\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-06/12\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Network analysis and visualization.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-11\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-13/12\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Basic principles of geographic information system.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-12\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-20/12\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Visualization of spatial and urban data. \textbf{(HW2 assigned)}\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-13\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-27/12\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Basic principles of interactive data visualization.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-14\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-03/01\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Interactive web-based data visualization tools.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-15\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-10/01\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Relational databases.\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-16-17\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.23}}\centering
-17-30/01\strut
-\end{minipage} &
-\begin{minipage}[t]{(\columnwidth - 2\tabcolsep) * \real{0.55}}\raggedright
-Final exam week. \textbf{(Final report submission, Project website on
-GitHub pages, Oral presentation)}\strut
-\end{minipage}\tabularnewline
+1 & 04/10 & Introduction to data science and computational tools. \\
+2 & 11/10 & Tools for data importing, manipulating, and tidying. \\
+3 & 18/10 & Basic principles of data visualization. \\
+4 & 25/10 & Data visualization tools. \\
+5 & 01/11 & Handling with strings and dates in data. \textbf{(HW1
+assigned, Project proposal submission)} \\
+6 & 08/11 & Scraping data from web. \\
+7 & 15/11 & Data extraction from social networking sites. \\
+8 & 22/11 & ITU Fall Break. \\
+9 & 29/11 & Basic principles of text mining. \textbf{(Project interim
+report submission)} \\
+10 & 06/12 & Network analysis and visualization. \\
+11 & 13/12 & Basic principles of geographic information system. \\
+12 & 20/12 & Visualization of spatial and urban data. \textbf{(HW2
+assigned)} \\
+13 & 27/12 & Basic principles of interactive data visualization. \\
+14 & 03/01 & Interactive web-based data visualization tools. \\
+15 & 10/01 & Relational databases. \\
+16-17 & 17-30/01 & Final exam week. \textbf{(Final report submission,
+Project website on GitHub pages, Oral presentation)} \\
 \bottomrule
 \end{longtable}
 
@@ -458,13 +333,13 @@ be conducted.
     \item
       Project proposal 5\%,
     \item
-      Project interim written-report 10\%,
+      Project interim written-report 25\%,
     \item
-      Project final written-report 30\%,
+      Project final written-report 20\%,
     \item
       Project website on GitHub pages 5\%,
     \item
-      Project oral presentation 25\%,
+      Project oral presentation 20\%,
     \item
       Peer evaluation 5\%,
     \item
