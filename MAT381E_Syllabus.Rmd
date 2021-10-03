@@ -160,8 +160,8 @@ Please read the information below as a reference for how this class will be cond
   - 2 homework assignments each 10%,
   - 1 team-based project   80%.
   - Detailed break-down of the team-based project:
-    - Project proposal                                      5%,
-    - Project interim written-report                       25%,
+    - Project proposal                                     10%,
+    - Project interim written-report                       20%,
     - Project final written-report                         20%,
     - Project website on GitHub pages                      5%,
     - Project oral presentation                            20%,
