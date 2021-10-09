@@ -3,14 +3,14 @@ title: 'MAT381E: Introduction to Data Science'
 fontsize: 12pt
 date: "Fall 2021"
 output:
+  html_document:
+    df_print: paged
+    fontfamily: mathpazo
+  word_document: default
   pdf_document:
     fig_caption: yes
     keep_tex: yes
     latex_engine: pdflatex
-  word_document: default
-  html_document:
-    df_print: paged
-    fontfamily: mathpazo
 header-includes: \linespread{1.05}
                  \usepackage{xcolor} #enable to use xcolor package to color the text
 geometry: margin=1in
@@ -69,7 +69,10 @@ https://github.com/MAT381E-Fall21.
 **Course Tentative Plan**: We will closely follow the weekly schedule given below.
 However, weekly class schedules are subject to change depending on the progress we make as a class.
 
-| **Week** | **Date**   | **Topic**         |  **Github Repo**  | 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+
+| **Week** | **Date**   | **Topic**         |  <i class="fab fa-github"></i> | 
 | :---:    | :---:      | :------------------|:------:|
 | 1 | 04/10 | Introduction to data science and computational tools. **(Project proposal assigned)** |  [🔗](https://github.com/MAT381E-Fall21/Week_1_Lecture_Notes) |
 | 2 | 11/10 | Tools for data importing, manipulating, and tidying.|  [🔗](https://github.com/MAT381E-Fall21/Week_2_Lecture_Notes) |
