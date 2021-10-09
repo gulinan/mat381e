@@ -3,14 +3,14 @@ title: 'MAT381E: Introduction to Data Science'
 fontsize: 12pt
 date: "Fall 2021"
 output:
-  html_document:
-    df_print: paged
-    fontfamily: mathpazo
-  word_document: default
   pdf_document:
     fig_caption: yes
     keep_tex: yes
     latex_engine: pdflatex
+  word_document: default
+  html_document:
+    df_print: paged
+    fontfamily: mathpazo
 header-includes: \linespread{1.05}
                  \usepackage{xcolor} #enable to use xcolor package to color the text
 geometry: margin=1in
@@ -18,7 +18,6 @@ geometry: margin=1in
 
 ![](developer.png)
 
-## MERHABA ARKADASLAR
 
 ## Instructor Information
 
@@ -70,24 +69,24 @@ https://github.com/MAT381E-Fall21.
 **Course Tentative Plan**: We will closely follow the weekly schedule given below.
 However, weekly class schedules are subject to change depending on the progress we make as a class.
 
-| **Week** | **Date**   | **Topic**  | 
-| :---:| :---: | :-----------| 
-| 1 | 04/10 | Introduction to data science and computational tools.| **(Project proposal assigned)**|
-| 2 | 11/10 | Tools for data importing, manipulating, and tidying.|
-| 3 | 18/10 | Basic principles of data visualization.|
-| 4 | 25/10 | Data visualization tools.|
-| 5 | 01/11 | Handling with strings and dates in data. **(HW1 assigned, Project proposal submission)**|
-| 6 | 08/11 | Scraping data from web.|
-| 7 | 15/11 | Data extraction from social networking sites. |
-| 8 | 22/11 | ITU Fall Break. |
-| 9 | 29/11 | Basic principles of text mining. **(Project interim report submission)**|
-| 10 | 06/12 | Network analysis and visualization.|
-| 11 | 13/12 | Basic principles of geographic information system.|
-| 12 | 20/12 | Visualization of spatial and urban data. **(HW2 assigned)**|
-| 13 | 27/12 | Basic principles of interactive data visualization.|
-| 14 | 03/01 | Interactive web-based data visualization tools.|
-| 15 | 10/01| Relational databases. |
-| 16-17 | 17-30/01| Final exam week. **(Final report submission, Project website on GitHub pages, Oral presentation)** |
+| **Week** | **Date**   | **Topic**         |  **Github Repo**  | 
+| :---:    | :---:      | :------------------|:------:|
+| 1 | 04/10 | Introduction to data science and computational tools. **(Project proposal assigned)** |  [🔗](https://github.com/MAT381E-Fall21/Week_1_Lecture_Notes) |
+| 2 | 11/10 | Tools for data importing, manipulating, and tidying.|  [🔗](https://github.com/MAT381E-Fall21/Week_2_Lecture_Notes) |
+| 3 | 18/10 | Basic principles of data visualization.| |
+| 4 | 25/10 | Data visualization tools.| |
+| 5 | 01/11 | Handling with strings and dates in data. **(HW1 assigned, Project proposal submission)**| |
+| 6 | 08/11 | Scraping data from web.||
+| 7 | 15/11 | Data extraction from social networking sites. | |
+| 8 | 22/11 | ITU Fall Break. ||
+| 9 | 29/11 | Basic principles of text mining. **(Project interim report submission)**| |
+| 10 | 06/12 | Network analysis and visualization.| |
+| 11 | 13/12 | Basic principles of geographic information system.| |
+| 12 | 20/12 | Visualization of spatial and urban data. **(HW2 assigned)**| |
+| 13 | 27/12 | Basic principles of interactive data visualization.|  |
+| 14 | 03/01 | Interactive web-based data visualization tools.| |
+| 15 | 10/01| Relational databases. | |
+| 16-17 | 17-30/01| Final exam week. **(Final report submission, Project website on GitHub pages, Oral presentation)** | |
 
 **Student Learning Outcomes:** A student who completed this course successfully is expected to: 
 
