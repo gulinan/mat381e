@@ -82,9 +82,9 @@ However, weekly class schedules are subject to change depending on the progress 
 | 6 | 08/11 | Scraping data from web.||
 | 7 | 15/11 | Data extraction from social networking sites. | |
 | 8 | 22/11 | ITU Fall Break. ||
-| 9 | 29/11 | Basic principles of text mining. **(Project interim report submission)**| |
+| 9 | 29/11 | Basic principles of text mining.| |
 | 10 | 06/12 | Network analysis and visualization.| |
-| 11 | 13/12 | Basic principles of geographic information system.| |
+| 11 | 13/12 | Basic principles of geographic information system. **(Project interim report submission)**| |
 | 12 | 20/12 | Visualization of spatial and urban data. **(HW2 assigned)**| |
 | 13 | 27/12 | Basic principles of interactive data visualization.|  |
 | 14 | 03/01 | Interactive web-based data visualization tools.| |
@@ -120,7 +120,7 @@ sources on their own:
 
 1. Wickham, H. and Grolemund, G. (2016). R for data science: import, tidy, transform, visualize, and model data. O'Reilly Media, Inc. [Freely available through the book’s website https://r4ds.had.co.nz/].
 
-2.	Bivand, R.S., Pebesma, E.J., Gomez-Rubio, V., and Pebesma, E. J. (2013). Applied spatial data analysis with R. New York: Springer. 2nd ed. [Electronic resource at ITU Library Services].
+2.	Bivand, R.S., Pebesma, E.J., Gomez-Rubio, V., and Pebesma, E. J. (2013). sp. New York: Springer. 2nd ed. [Electronic resource at ITU Library Services].
 
 3.	Carson, S. (2020). Interactive web-based data visualization with R, plotly, and shiny. CRC Press. [Freely available through the book’s website https://plotly-r.com/].
 
