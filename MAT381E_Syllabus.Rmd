@@ -45,11 +45,11 @@ Data science is an interdisciplinary and broad field using mathematics, statisti
 
 **Computer skills:**
 
-We will be using `R` programming language with `RStudio IDE` for data related works.
-You will be using the version control system `Git` along with `GitHub` to submit homework assignments and
+We will be using `R` programming language with `RStudio IDE` for data related works. You will prepare your all works (reports and presentations) in `R Markdown`, which closely follows `Markdown` syntax. 
+You will also be using the version control system `Git` along with `GitHub` to submit homework assignments and
 team-based works. Lastly, prior knowledge of `HTML`, `CSS`, and `JavaScript` brings a big plus to produce fancy outputs for your works. But it is neither a must nor focus of this course.
 
-**Course website:** For each study, you will also receive an invitation soon to submit your study to the GitHub Classroom of the following organization:
+**Course website:** For each study, you will also receive an invitation soon to submit your study to the `GitHub Classroom` of the following organization:
 
 https://github.com/MAT381E-Fall21.
 
