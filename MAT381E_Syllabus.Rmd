@@ -74,9 +74,9 @@ However, weekly class schedules are subject to change depending on the progress 
 
 | **Week** | **Date**   | **Topic**         |  <i class="fab fa-github"></i> | 
 | :---:    | :---:      | :------------------|:------:|
-| 1 | 04/10 | Introduction to data science and computational tools. **(Project proposal assigned)** |  [🔗](https://github.com/MAT381E-Fall21/Week_1_Lecture_Notes) |
-| 2 | 11/10 | Tools for data importing, manipulating, and tidying.|  [🔗](https://github.com/MAT381E-Fall21/Week_2_Lecture_Notes) |
-| 3 | 18/10 | Basic principles of data visualization.| |
+| 1 | 04/10 | Introduction to data science and computational tools. **(Project proposal assigned)** |  [🔗](https://github.com/MAT381E-Fall21/Week_01_02_Lecture_Notes) |
+| 2 | 11/10 | Tools for data importing, manipulating, and tidying.|  [🔗](https://github.com/MAT381E-Fall21/Week_03_04_Lecture_Notes) |
+| 3 | 18/10 | Basic principles of data visualization.| [🔗](https://github.com/MAT381E-Fall21/Week_05_06_Lecture_Notes)|
 | 4 | 25/10 | Data visualization tools.| |
 | 5 | 01/11 | Handling with strings and dates in data. **(HW1 assigned, Project proposal submission)**| |
 | 6 | 08/11 | Scraping data from web.||
