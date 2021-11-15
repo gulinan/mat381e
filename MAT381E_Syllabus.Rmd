@@ -84,8 +84,8 @@ However, weekly class schedules are subject to change depending on the progress 
 | 8 | 22/11 | ITU Fall Break. ||
 | 9 | 29/11 | Basic principles of text mining.| |
 | 10 | 06/12 | Network analysis and visualization.| |
-| 11 | 13/12 | Basic principles of geographic information system. **(Project interim report submission)**| |
-| 12 | 20/12 | Visualization of spatial and urban data. **(HW2 assigned)**| |
+| 11 | 13/12 | Basic principles of geographic information system.| |
+| 12 | 20/12 | Visualization of spatial and urban data. **(HW2 assigned, Project interim report submission)**| |
 | 13 | 27/12 | Basic principles of interactive data visualization.|  |
 | 14 | 03/01 | Interactive web-based data visualization tools.| |
 | 15 | 10/01| Relational databases. | |
