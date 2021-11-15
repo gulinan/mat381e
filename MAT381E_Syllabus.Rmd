@@ -78,7 +78,7 @@ However, weekly class schedules are subject to change depending on the progress 
 | 2 | 11/10 | Tools for data importing, manipulating, and tidying.|  [🔗](https://github.com/MAT381E-Fall21/Week_03_04_Lecture_Notes) |
 | 3 | 18/10 | Basic principles of data visualization.| [🔗](https://github.com/MAT381E-Fall21/Week_05_06_Lecture_Notes)|
 | 4 | 25/10 | Data visualization tools.| |
-| 5 | 01/11 | Handling with strings and dates in data. **(HW1 assigned, Project proposal submission)**| |
+| 5 | 01/11 | Handling with strings and dates in data. **(HW1 assigned, Project proposal submission)**| [🔗](https://github.com/MAT381E-Fall21/Week_07_Lecture_Notes)|
 | 6 | 08/11 | Scraping data from web.||
 | 7 | 15/11 | Data extraction from social networking sites. | |
 | 8 | 22/11 | ITU Fall Break. ||
