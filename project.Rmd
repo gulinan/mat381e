@@ -4,4 +4,47 @@ description: |
   Course final projects will be here soon!
 ---
 
+# Project Team Information
+
+Project team members and their project titles are listed below. Details will be available soon.
+
+| Name          | Surname      | GitHub User Name  | Team Name     | Project Title                                                                |
+| ------------- | ------------ | ----------------- | ------------- | ---------------------------------------------------------------------------- |
+| Çağrı         | Gökpunar     | mpospirit         | ananas        | Relationship between Crime Rates and Income Levels                           |
+| Melisa        | Kütük        | kutukm17          | ananas        | Relationship between Crime Rates and Income Levels                           |
+| Semih         | Atalay       | semihatalay       | atakar        | Statistics of women and men in education in Turkey                           |
+| Mahmud Turab  | Karakaş      | karakasm          | atakar        | Statistics of women and men in education in Turkey                           |
+| Beyzanur      | Ermiş        | beyzaermis        | FireFighter   | Forest Fires in Turkey                                                       |
+| Ayşim         | Hırdan       | aysimh            | FireFighter   | Forest Fires in Turkey                                                       |
+| Hüseyin       | Deniz        | denizindesi       | HAX           | Minimum wage and purchasing power by country                                 |
+| Ahmet Cemal   | Şahin        | acsahin           | HAX           | Minimum wage and purchasing power by country                                 |
+| Zeynep        | Akkoç        | akkocz17          | Hypatia       | Recycling Movement in the World                                              |
+| Selin         | Duman        | Selinduman        | Hypatia       | Recycling Movement in the World                                              |
+| Büşra         | Köksal       | bkksl             | Hypatia       | Recycling Movement in the World                                              |
+| Fevzi         | Kaya         | fevzikaya7        | Indian Fellas | Effects of Climate Changes in the Indian Ocean on Australia and South Africa |
+| Halil         | Serdar       | halilserdar       | Indian Fellas | Effects of Climate Changes in the Indian Ocean on Australia and South Africa |
+| Eda           | Atalay       | edaatalay         | Melange Team  | Analysis of Greenhouse Gas Emissions                                         |
+| Beyza Nur     | Kebeli       | beyzakebeli       | Melange Team  | Analysis of Greenhouse Gas Emissions                                         |
+| Uğurcan       | Bayraktar    | ugurcanbayraktar  | NA            | Statistics of earthquake hazards in Turkey and comparison with the world     |
+| Furkan        | Eskicioğlu   | furkanesk         | NA            | Statistics of earthquake hazards in Turkey and comparison with the world     |
+| Duygu         | Kaya         | duygukaya99       | Nazar Boncugu | Producing Food While Restoring the Planet                                    |
+| İbrahim Talha | Özdemir      | ozdemiri18        | Nazar Boncugu | Producing Food While Restoring the Planet                                    |
+| Selin         | Durmuş       | durmuselin        | noobs         | Refugee Migration Around The World                                           |
+| Yunus Emre    | Özkaya       | xemreozkaya       | noobs         | Refugee Migration Around The World                                           |
+| Semih         | Çetin        | semihctn          | OMS           | Turkey Covid-19 and Vaccination Statistics                                   |
+| Serdar Eren   | Mersin       | 0SAM10            | Panthers      | An Analysis on Endangered and Extinct Fauna and Flora                        |
+| Kaan          | Kaymaz       | Kaankaymaz        | poverty       | Child Poverty in the World                                                   |
+| Ali Alperen   | Usta         | alialperenusta    | poverty       | Child Poverty in the World                                                   |
+| Şeymanur      | Ergezgin     | seymaergezgin     | readme        | OECD Countries' Social and Welfare Statistics and Turkey’s position          |
+| Ecenur        | Özsoy        | ecenurozsy        | readme        | OECD Countries' Social and Welfare Statistics and Turkey’s position          |
+| Berkay        | Ocak         | berkayocak9       | riskteam      | Crisis and disaster risks around the world                                   |
+| Ezgi          | Özgen        | ozgenezgi         | riskteam      | Crisis and disaster risks around the world                                   |
+| Oğuzhan       | Koç          | koco17            | Shining Stars | Audience Ratios of the Theater Plays by Stage                                |
+| Merve         | Zengin       | mrvzng7           | Shining Stars | Audience Ratios of the Theater Plays by Stage                                |
+| Yaren         | Benhür       | yarenbenhur       | Solar Bears   | Statistics of Energy Mix and Renewable Energy Adaptation                     |
+| Kenan Baran   | Marap        | bmarap            | Solar Bears   | Statistics of Energy Mix and Renewable Energy Adaptation                     |
+| Koray         | Küçük        | koraykck          | K-Team        | Analysis of Clean Water, Sanitation and Hygiene Data in the World            |
+| Gizem         | Miçooğulları | micoogullarigizem | GDM           | Analysis of stock market data of vaccine companies in COVID19 pandemic       |
+| Yasin Doğa    | Özkütük      | dogaozktk         | GDM           | Analysis of stock market data of vaccine companies in COVID19 pandemic       |
+| Mert          | Taşdemir     | merttsdmr         | GDM           | Analysis of stock market data of vaccine companies in COVID19 pandemic       |
 
