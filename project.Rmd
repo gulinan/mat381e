@@ -6,6 +6,8 @@ description: |
 
 # Project Design Guideline
 
+## Data for Good
+
 In MAT381E: Introduction to Data Science course, you, as a group of 2, are expected to develop a data science project motivated by one of the topics related to, but not limited to:
 
 * Animals,
@@ -26,13 +28,21 @@ In MAT381E: Introduction to Data Science course, you, as a group of 2, are expec
 * Peace & justice & human rights, and
 * People with disabilities.
 
-Some of these topics are also within the scope of sustainable development goals of United Nations for a better future for our world (https://www.un.org/sustainabledevelopment/sustainable-development-goals/). Feel free to ask for help from your peers who have domain knowledge and data expertise on these topics (and of course, do not forget to thank them at the end of your project).
+Some of these topics are also within the scope of sustainable development goals of United Nations for a better future for our world:
+
+https://www.un.org/sustainabledevelopment/sustainable-development-goals/. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0XTBYMfZyrM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Feel free to ask for help from your peers who have domain knowledge and data expertise on these topics (and of course, do not forget to thank them at the end of your project).
 
 The main aim of developing a project is to find an open-source data related to the topics mentioned above and then to use basic data science tools (data importing, cleaning, re-shaping, exploring, and visualization techniques) to touch one of societal problems in our world and let their voice be heard by people via posting your project on the web (e.g., GitHub pages). 
 
+Throughout the semester, you will submit your project to [GitHub organization of our class](https://github.com/MAT381E-Fall21) at three stages: 1) Project proposal, 2) Project interim report, and 3) Project final report. Please, follow the GitHub classroom invitations, which enables you to create your team-based project repository on our [GitHub organization of our class](https://github.com/MAT381E-Fall21), to see the template files which gives you more guideline on how to prepare your report. Lastly, you will publish your final project on GitHub pages of our course's GitHub organization.
+
 # Project Team Information
 
-Project team members and their project titles are listed below. Details will be available soon.
+Fall21 semester project team members and their project titles are listed below. Details will be available towards the end of the semester.
 
 | Name          | Surname      | GitHub User Name  | Team Name     | Project Title                                                                |
 | ------------- | ------------ | ----------------- | ------------- | ---------------------------------------------------------------------------- |
