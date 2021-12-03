@@ -38,10 +38,24 @@ Feel free to ask for help from your peers who have domain knowledge and data exp
 
 The main aim of developing a project is to find an open-source data related to the topics mentioned above and then to use basic data science tools (data importing, cleaning, re-shaping, exploring, and visualization techniques) to touch one of societal problems in our world and let their voice be heard by people via posting your project on the web (e.g., GitHub pages). 
 
-Throughout the semester, you will submit your project to [GitHub organization of our class](https://github.com/MAT381E-Fall21) at three stages: 1) Project proposal, 2) Project interim report, and 3) Project final report. Please, follow the GitHub classroom invitations, which enables you to create your team-based project repository on our [GitHub organization of our class](https://github.com/MAT381E-Fall21), to see the template files which gives you more guideline on how to prepare your report. Lastly, you will publish your final project on GitHub pages of our course's GitHub organization. For now, take a look at what GitHub pages is:
+# Project Submission Guideline
+
+Throughout the semester, you will submit your project to [GitHub organization of our class](https://github.com/MAT381E-Fall21) at three main stages: 
+
+<ol>
+<li> [Project proposal](https://github.com/MAT381E-Fall21/Project_Proposal), 
+</li>
+<li> [Project interim report](https://github.com/MAT381E-Fall21/project_interim_report), and  
+</li>
+<li> Project final report, oral presentation, and project web site at GitHub pages.  
+</li>
+</ol>
+
+Please, follow the GitHub classroom invitations, which enables you to create your team-based project repository on our [GitHub organization of our class](https://github.com/MAT381E-Fall21), to see the template files which gives you more guideline on how to prepare your report. 
+
+Lastly, you will publish your final project on GitHub pages of our course's GitHub organization. For now, take a look at what GitHub pages is:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2MsN8gpT6jY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 # Project Team Information
 
@@ -86,4 +100,6 @@ Fall21 semester project team members and their project titles are listed below. 
 | Gizem         | Miçooğulları | micoogullarigizem | GDM           | Analysis of stock market data of vaccine companies in COVID19 pandemic       |
 | Yasin Doğa    | Özkütük      | dogaozktk         | GDM           | Analysis of stock market data of vaccine companies in COVID19 pandemic       |
 | Mert          | Taşdemir     | merttsdmr         | GDM           | Analysis of stock market data of vaccine companies in COVID19 pandemic       |
+
+
 
