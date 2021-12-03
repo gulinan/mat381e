@@ -4,7 +4,7 @@ description: |
   Course final projects will be here soon!
 ---
 
-# Project Design Guideline
+# Project Aim and Topic
 
 ## Data for Good
 
@@ -38,7 +38,7 @@ Feel free to ask for help from your peers who have domain knowledge and data exp
 
 The main aim of developing a project is to find an open-source data related to the topics mentioned above and then to use basic data science tools (data importing, cleaning, re-shaping, exploring, and visualization techniques) to touch one of societal problems in our world and let their voice be heard by people via posting your project on the web (e.g., GitHub pages). 
 
-# Project Submission Guideline
+# Project Design and Submission Guideline
 
 Throughout the semester, you will submit your project to [GitHub organization of our class](https://github.com/MAT381E-Fall21) at three main stages: 
 
