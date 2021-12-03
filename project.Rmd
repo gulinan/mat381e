@@ -4,7 +4,7 @@ description: |
   Course final projects will be here soon!
 ---
 
-# Project Aim and Topic
+# Project Topic and Aim
 
 ## Data for Good
 

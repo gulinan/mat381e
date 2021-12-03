@@ -8,7 +8,7 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Fall 21 Course Projects"
+    - text: "Fall21 Course Projects"
       href: project.html
     - icon: fab fa-github
       href: https://github.com/MAT381E-Fall21
