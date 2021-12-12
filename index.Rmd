@@ -69,12 +69,13 @@ However, weekly class schedules are subject to change depending on the progress 
 | 8 | 22/11 | ITU Fall Break. ||
 | 9 | 29/11 | Basic principles of text mining.| |
 | 10 | 06/12 | Network analysis and visualization.| [🔗](https://github.com/MAT381E-Fall21/Week_10_Lecture_Notes)|
-| 11 | 13/12 | Basic principles of geographic information system.| |
-| 12 | 20/12 | Visualization of spatial and urban data. **(HW2 assigned, Project interim report submission)**| |
-| 13 | 27/12 | Basic principles of interactive data visualization.|  |
+| 11 | 13/12 | Basic principles of geographic information system.|[🔗](https://github.com/MAT381E-Fall21/Week_11_12_Lecture_Notes) |
+| 12 | 20/12 | Visualization of spatial and urban data. **(Project interim report submission)**| |
+| 13 | 27/12 | Basic principles of interactive data visualization. **(HW2 assigned)**| [🔗](https://github.com/MAT381E-Fall21/Week_13_14_Lecture_Notes)  [🔗](https://github.com/MAT381E-Fall21/Homework_II)|
 | 14 | 03/01 | Interactive web-based data visualization tools.| |
 | 15 | 10/01| Relational databases. | |
-| 16-17 | 17-30/01| Final exam week. **(Final report submission, Project website on GitHub pages, Oral presentation)** | |
+| 16-17 | 17-30/01| Final exam week. **(Final report submission, Oral presentation, Project website on GitHub pages, Peer Evaluation)** |[🔗](https://github.com/MAT381E-Fall21/Project_final_report) [🔗](https://github.com/MAT381E-Fall21/Peer_evaluation)|
+
 
 
 **Additional <i class="fab fa-github"></i> Repositories**
@@ -114,6 +115,8 @@ sources on their own:
     
 6.  Wickham, H. (2016). ggplot2: Elegant graphics for data analysis. Springer, 2nd ed. [Electronic resource at ITU Library Services].
 
+7. Baumer, B.S., Kaplan, D.T., and Horton, N.J. (2021). Modern data science with R. 
+[Freely available through the book’s website https://mdsr-book.github.io/mdsr2e/]. 
 
 **Off-Campus Access to the ITU Library E-sources:**  
 
