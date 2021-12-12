@@ -3,7 +3,7 @@ title: "Course Projects"
 description: |
   Course final projects will be here soon!
 output:
-  distill::distill_article  
+  distill::distill_website 
 ---
 
 # Project Topic and Aim
