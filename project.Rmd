@@ -2,6 +2,8 @@
 title: "Course Projects"
 description: |
   Course final projects will be here soon!
+output:
+  distill::distill_article  
 ---
 
 # Project Topic and Aim

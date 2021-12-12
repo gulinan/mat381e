@@ -1,7 +1,10 @@
 ---
 title: 'MAT381E: Introduction to Data Science'
-site: distill::distill_website
+output:
+  distill::distill_article
 ---
+
+##https://stackoverflow.com/questions/61584128/change-color-of-header-for-distill-blog-rmarkdown
 
 ## Instructor Information
 
