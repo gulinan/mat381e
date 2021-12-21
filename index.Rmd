@@ -71,11 +71,10 @@ However, weekly class schedules are subject to change depending on the progress 
 | 10 | 06/12 | Network analysis and visualization.| [🔗](https://github.com/MAT381E-Fall21/Week_10_Lecture_Notes)|
 | 11 | 13/12 | Basic principles of geographic information system.|[`Slides`](https://mat381e-fall21.github.io/Week_11_12_Lecture_Notes/#1), [🔗](https://github.com/MAT381E-Fall21/Week_11_12_Lecture_Notes) |
 | 12 | 20/12 | Visualization of spatial and urban data. **(Project interim report submission)**| |
-| 13 | 27/12 | Basic principles of interactive data visualization. **(HW2 assigned)**| [🔗](https://github.com/MAT381E-Fall21/Week_13_14_Lecture_Notes)  [🔗](https://github.com/MAT381E-Fall21/Homework_II)|
-| 14 | 03/01 | Interactive web-based data visualization tools.| |
+| 13 | 27/12 | Basic principles of interactive data visualization. **(HW2 assigned)**|  [🔗](https://github.com/MAT381E-Fall21/Homework_II)|
+| 14 | 03/01 | Interactive web-based data visualization tools.| [🔗](https://github.com/MAT381E-Fall21/Week_13_14_Lecture_Notes)  |
 | 15 | 10/01| Relational databases. | |
 | 16-17 | 17-30/01| Final exam week. **(Final report submission, Oral presentation, Project website on GitHub pages, Peer Evaluation)** |[🔗](https://github.com/MAT381E-Fall21/Project_final_report) [🔗](https://github.com/MAT381E-Fall21/Peer_evaluation)|
-
 
 
 **Additional <i class="fab fa-github"></i> Repositories**
