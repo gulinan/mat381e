@@ -25,7 +25,7 @@ an online appointment via Zoom.
 
 **Course Description:** 
 
-Data science is an interdisciplinary and broad field using mathematics, statistics, and computer science methods and tools to extract information and insight from data in different forms. This course is an introductory level data science course on introducing different data types (structured and unstructured) from different fields arising mostly from digital technologies or available on the web, and then focusing on importing, cleaning, reshaping, exploring, and visualizing these data.
+Data science is an interdisciplinary and broad field using mathematics, statistics, and computer science methods and tools to extract information and insight from data in different forms. This course is an introductory level data science course on introducing different data types (structured and unstructured) from different fields arising mostly from digital technologies or available on the web, and then focusing on importing, cleaning, reshaping, exploring, and visualizing these data. 
 
 
 **Computer skills:**
@@ -84,7 +84,7 @@ However, weekly class schedules are subject to change depending on the progress 
 **Student Learning Outcomes:** A student who completed this course successfully is expected to: 
 
 1.	Know the recent technologies associated with data science,
-2.  Know basic programming skills with R Programming and get familiar with its data science related packages,
+2.  Know basic programming skills with R programming and get familiar with its data science related packages,
 3.	Know how to access data from various sources,
 4.  Know how to clean, reshape, explore, and visualize the data for reporting and further analysis.
 5.	Know how to make data-driven inferences,
@@ -243,4 +243,4 @@ for more information on distance education regulations at ITU.
 
 This course could not be possible without [ITU-Zoom](https://itu-edu-tr.zoom.us/), [ITU-Ninova](https://ninova.itu.edu.tr/tr/), [RStudio](https://www.rstudio.com/) along with all open-source packages, [GitHub](https://github.com/), [GitHub Classroom](https://classroom.github.com/) and generous support of [DataCamp](https://www.datacamp.com/). 
 The course slides are prepared with [R xaringan](https://github.com/yihui/xaringan) along with
-[R xaringan extra](https://github.com/gadenbuie/xaringanExtra). The course web site is built on [Distill for R Markdown](https://rstudio.github.io/distill/).
+[R xaringan extra](https://github.com/gadenbuie/xaringanExtra). The course web site is built on [Distill for R Markdown](https://rstudio.github.io/distill/) and hosted at [GitHub pages](https://pages.github.com/).

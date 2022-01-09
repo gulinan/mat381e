@@ -49,7 +49,7 @@ Throughout the semester, you will submit your project to [GitHub organization of
 </li>
 <li> [Project interim report](https://github.com/MAT381E-Fall21/project_interim_report), and  
 </li>
-<li> Project final report, oral presentation, and project web site at GitHub pages.  
+<li> [Project final report, oral presentation, and project web site at GitHub pages](https://github.com/MAT381E-Fall21/Project_final_report).  
 </li>
 </ol>
 
