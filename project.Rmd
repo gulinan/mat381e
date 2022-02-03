@@ -1,7 +1,6 @@
 ---
 title: "Course Projects"
 description: |
-  Course final projects will be here soon!
 output:
   distill::distill_website 
 ---
@@ -61,47 +60,46 @@ Lastly, you will publish your final project on GitHub pages of our course's GitH
 
 # Project Team Information
 
-Fall21 semester project team members and their project titles are listed below. Details will be available towards the end of the semester.
+Fall21 semester project team members and their project titles are listed below. 
 
-| Name          | Surname      | GitHub User Name  | Team Name     | Project Title                                                                |
-| ------------- | ------------ | ----------------- | ------------- | ---------------------------------------------------------------------------- |
-| Çağrı         | Gökpunar     | mpospirit         | ananas        | Relationship between Crime Rates and Income Levels                           |
-| Melisa        | Kütük        | kutukm17          | ananas        | Relationship between Crime Rates and Income Levels                           |
-| Semih         | Atalay       | semihatalay       | atakar        | Statistics of women and men in education in Turkey                           |
-| Mahmud Turab  | Karakaş      | karakasm          | atakar        | Statistics of women and men in education in Turkey                           |
-| Beyzanur      | Ermiş        | beyzaermis        | FireFighter   | Forest Fires in Turkey                                                       |
-| Ayşim         | Hırdan       | aysimh            | FireFighter   | Forest Fires in Turkey                                                       |
-| Hüseyin       | Deniz        | denizindesi       | HAX           | Minimum wage and purchasing power by country                                 |
-| Ahmet Cemal   | Şahin        | acsahin           | HAX           | Minimum wage and purchasing power by country                                 |
-| Zeynep        | Akkoç        | akkocz17          | Hypatia       | Recycling Movement in the World                                              |
-| Selin         | Duman        | Selinduman        | Hypatia       | Recycling Movement in the World                                              |
-| Büşra         | Köksal       | bkksl             | Hypatia       | Recycling Movement in the World                                              |
-| Fevzi         | Kaya         | fevzikaya7        | Indian Fellas | Effects of Climate Changes in the Indian Ocean on Australia and South Africa |
-| Halil         | Serdar       | halilserdar       | Indian Fellas | Effects of Climate Changes in the Indian Ocean on Australia and South Africa |
-| Eda           | Atalay       | edaatalay         | Melange Team  | Analysis of Greenhouse Gas Emissions                                         |
-| Beyza Nur     | Kebeli       | beyzakebeli       | Melange Team  | Analysis of Greenhouse Gas Emissions                                         |
-| Uğurcan       | Bayraktar    | ugurcanbayraktar  | NA            | Statistics of earthquake hazards in Turkey and comparison with the world     |
-| Furkan        | Eskicioğlu   | furkanesk         | NA            | Statistics of earthquake hazards in Turkey and comparison with the world     |
-| Duygu         | Kaya         | duygukaya99       | Nazar Boncugu | Producing Food While Restoring the Planet                                    |
-| İbrahim Talha | Özdemir      | ozdemiri18        | Nazar Boncugu | Producing Food While Restoring the Planet                                    |
-| Selin         | Durmuş       | durmuselin        | noobs         | Refugee Migration Around The World                                           |
-| Yunus Emre    | Özkaya       | xemreozkaya       | noobs         | Refugee Migration Around The World                                           |
-| Semih         | Çetin        | semihctn          | OMS           | Turkey Covid-19 and Vaccination Statistics                                   |
-| Serdar Eren   | Mersin       | 0SAM10            | Panthers      | An Analysis on Endangered and Extinct Fauna and Flora                        |
-| Kaan          | Kaymaz       | Kaankaymaz        | poverty       | Child Poverty in the World                                                   |
-| Ali Alperen   | Usta         | alialperenusta    | poverty       | Child Poverty in the World                                                   |
-| Şeymanur      | Ergezgin     | seymaergezgin     | readme        | OECD Countries' Social and Welfare Statistics and Turkey’s position          |
-| Ecenur        | Özsoy        | ecenurozsy        | readme        | OECD Countries' Social and Welfare Statistics and Turkey’s position          |
-| Berkay        | Ocak         | berkayocak9       | riskteam      | Crisis and disaster risks around the world                                   |
-| Ezgi          | Özgen        | ozgenezgi         | riskteam      | Crisis and disaster risks around the world                                   |
-| Oğuzhan       | Koç          | koco17            | Shining Stars | Audience Ratios of the Theater Plays by Stage                                |
-| Merve         | Zengin       | mrvzng7           | Shining Stars | Audience Ratios of the Theater Plays by Stage                                |
-| Yaren         | Benhür       | yarenbenhur       | Solar Bears   | Statistics of Energy Mix and Renewable Energy Adaptation                     |
-| Kenan Baran   | Marap        | bmarap            | Solar Bears   | Statistics of Energy Mix and Renewable Energy Adaptation                     |
-| Koray         | Küçük        | koraykck          | K-Team        | Analysis of Clean Water, Sanitation and Hygiene Data in the World            |
-| Gizem         | Miçooğulları | micoogullarigizem | GDM           | Analysis of stock market data of vaccine companies in COVID19 pandemic       |
-| Yasin Doğa    | Özkütük      | dogaozktk         | GDM           | Analysis of stock market data of vaccine companies in COVID19 pandemic       |
-| Mert          | Taşdemir     | merttsdmr         | GDM           | Analysis of stock market data of vaccine companies in COVID19 pandemic       |
-
-
+| Name    | GitHub User Name  | Team Name     | Project GitHub Pages link      |                                                                                                                                   
+| --------| -------- | ---------| --------------------------- |
+| Çağrı   Gökpunar     | mpospirit         | ananas     | [Relationship between Crime Rates and Income Levels](https://mpospirit.github.io/project_final_report-ananas) |
+| Melisa     Kütük        | kutukm17          | ananas       | [Relationship between Crime Rates and Income Levels](https://mpospirit.github.io/project_final_report-ananas) |
+| Semih    Atalay       | semihatalay       | atakar        | [Statistics of women and men in education in Turkey](https://karakasm.github.io/MAT381E-Fall21-final-project_atakar/)                                |
+| Mahmud Turab   Karakaş      | karakasm          | atakar        | [Statistics of women and men in education in Turkey](https://karakasm.github.io/MAT381E-Fall21-final-project_atakar/)  
+| Beyzanur     Ermiş        | beyzaermis        | FireFighter   | [Forest Fires in Turkey](https://beyzaermis.github.io/DataScience_FireFighter/)  |          
+| Ayşim         Hırdan       | aysimh            | FireFighter  | [Forest Fires in Turkey](https://beyzaermis.github.io/DataScience_FireFighter/)  |             
+| Zeynep    Akkoç        | akkocz17          | Hypatia       |  [Recycling Movement in the World](https://mat-381e-project-team.github.io/Final_Report_Hypatia/)  |                                  
+| Selin    Duman        | Selinduman        | Hypatia       | [Recycling Movement in the World](https://mat-381e-project-team.github.io/Final_Report_Hypatia/)  |                                  
+| Büşra    Köksal       | bkksl             | Hypatia       | [Recycling Movement in the World](https://mat-381e-project-team.github.io/Final_Report_Hypatia/)  |                                  
+| Fevzi   Kaya         | fevzikaya7 | Indian Fellas |  [Effects of Climate Changes in the Indian Ocean on Australia and South Africa](https://fevzikaya7.github.io/final_report_indian_fellas/)                                            |
+| Halil  Serdar       | halilserdar       | Indian Fellas | [Effects of Climate Changes in the Indian Ocean on Australia and South Africa](https://fevzikaya7.github.io/final_report_indian_fellas/)                                            |
+| Eda   Atalay       | edaatalay         | Melange Team  |      [Analysis of Greenhouse Gas Emissions](https://beyzakebeli.github.io/beyzakebeli-Analysis-of-Greenhouse-Gas-Emissions/) |
+| Beyza Nur   Kebeli       | beyzakebeli       | Melange Team  | [Analysis of Greenhouse Gas Emissions](https://beyzakebeli.github.io/beyzakebeli-Analysis-of-Greenhouse-Gas-Emissions/) |
+| Uğurcan   Bayraktar    | ugurcanbayraktar  | NA            |    [Statistics of earthquake hazards in Turkey and comparison with the world ](https://ugurcanbayraktar.github.io/DataScience_NA/)                                                          |
+| Furkan   Eskicioğlu   | furkanesk         | NA            |  [Statistics of earthquake hazards in Turkey and comparison with the world ](https://ugurcanbayraktar.github.io/DataScience_NA/)             
+| Duygu     Kaya         | duygukaya99       | Nazar Boncugu |  [Producing Food While Restoring the Planet](https://duygukaya99.github.io/projectfinal-nazarboncugu/)                                               |
+| Görkem      Erarslan     | gorkemerarslann   | Nazar Boncugu | [Producing Food While Restoring the Planet](https://duygukaya99.github.io/projectfinal-nazarboncugu/)                                               |
+| İbrahim Talha  Özdemir      | ozdemiri18        | Nazar Boncugu | [Producing Food While Restoring the Planet](https://duygukaya99.github.io/projectfinal-nazarboncugu/)                                               |
+| Selin Durmuş       | durmuselin        | noobs         | [Refugee Migration Around The World](https://xemreozkaya.github.io/final-report-noobs/)  |                                                            |
+| Yunus Emre   Özkaya       | xemreozkaya       | noobs         | [Refugee Migration Around The World](https://xemreozkaya.github.io/final-report-noobs/)  |                                                              |
+| Samet      Saydam       | saydamsamet       | noobs         |   [Refugee Migration Around The World](https://xemreozkaya.github.io/final-report-noobs/)  |                                                       
+| Semih   Çetin        | semihctn          | OMS           |  [Turkey Covid-19 and Vaccination Statistics](https://semihctn.github.io/MAT381E-OMS-PROJECT/)  |                                                             
+| Serdar Eren  Mersin       | 0SAM10            | Panthers      |           [An Analysis on Endangered and Extinct Fauna and Flora](https://0sam01.github.io/project_final_panthers.html)                                                     |
+| Kaan        Kaymaz       | Kaankaymaz        | poverty       | [Child Poverty in the World ](https://alialperenusta.github.io/MAT381E_final_poverty/)   |
+| Ali Alperen   Usta         | alialperenusta    | poverty       |   [Child Poverty in the World ](https://alialperenusta.github.io/MAT381E_final_poverty/) |     
+| Şeymanur  Ergezgin     | seymaergezgin     | readme     | [OECD Countries' Social and Welfare Statistics and Turkey’s position](https://seymaergezgin.github.io/readme/#)    |                                                                                                                        
+| Ecenur    Özsoy        | ecenurozsy        | readme        | [OECD Countries' Social and Welfare Statistics and Turkey’s position](https://seymaergezgin.github.io/readme/#)    |                 
+| Berkay      Ocak         | berkayocak9       | riskteam | [Crisis and disaster risks around the world](https://ozgenezgi.github.io/RiskTeam/)|                                                                                     
+| Ezgi         Özgen        | ozgenezgi         | riskteam      | [Crisis and disaster risks around the world](https://ozgenezgi.github.io/RiskTeam/)|            
+| Oğuzhan    Koç          | koco17            | Shining Stars | Audience Ratios of the Theater Plays by Stage                                |                                                                                                                                                                    |
+| Merve         Zengin       | mrvzng7           | Shining Stars | Audience Ratios of the Theater Plays by Stage                                |                                                                                                                                                                    |
+| Yaren       Benhür       | yarenbenhur       | Solar Bears   | Statistics of Energy Mix and Renewable Energy Adaptation                     |                                                                                                                                                                    |
+| Kenan Baran  Marap        | bmarap            | Solar Bears   | Statistics of Energy Mix and Renewable Energy Adaptation                     | 
+| Koray   Küçük        | koraykck          | K-Team       |[Analysis of Clean Water, Sanitation and Hygiene Data in the World](https://koraykck.github.io/project_final_report_K-Team/)|  
+| Gizem   Miçooğulları | micoogullarigizem | GDM  |[Analysis of stock market data of vaccine companies in COVID19 pandemic](https://micoogullarigizem.github.io/Project-final-report-gdm/) |
+| Yasin Doğa   Özkütük      | dogaozktk         | GDM      |[Analysis of stock market data of vaccine companies in COVID19 pandemic](https://micoogullarigizem.github.io/Project-final-report-gdm/) | 
+| Mert   Taşdemir     | merttsdmr         | GDM           | [Analysis of stock market data of vaccine companies in COVID19 pandemic](https://micoogullarigizem.github.io/Project-final-report-gdm/) | 
+                                                                                                     
 
